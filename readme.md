@@ -12,6 +12,7 @@ sudo docker build -t moviebot .
 
 in compose.yml
 ```
+
 services:
   ############################ MOVIEBOT  #######################################
   moviebot:
@@ -22,6 +23,8 @@ services:
     environment:
       - TZ=Etc/UTC
     restart: unless-stopped
-    ```
+
+```
+
 
 
