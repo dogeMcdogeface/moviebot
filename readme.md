@@ -13,7 +13,7 @@ sudo docker build -t moviebot .
 in compose.yml
 ```
 services:
-  ############################ FIREBOT  #######################################
+  ############################ MOVIEBOT  #######################################
   moviebot:
     image: moviebot:latest
     container_name: moviebot
@@ -23,3 +23,4 @@ services:
       - TZ=Etc/UTC
     restart: unless-stopped
     ```
+
