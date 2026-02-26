@@ -18,9 +18,10 @@ services:
     image: moviebot:latest
     container_name: moviebot
     volumes:
-      - /home/goob/containers/config/moviebot:/config
+      - /path/to/containers/config/moviebot:/config
     environment:
       - TZ=Etc/UTC
     restart: unless-stopped
     ```
+
 
